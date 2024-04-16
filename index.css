@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #2F4F4F;
+}
+
+.nav-bar ul {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-bar ul li {
+    list-style: none;
+
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.navbar {
+    background-color: #142828;
+    border-bottom: 2px solid #ffefdb;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999999999999999999999999999999999999999999;
+}
+
+.Music-png img {
+    height: 40px;
+    width: 40px;
+}
+
+.Music-png {
+    padding-top: 3px;
+    margin-left: 30px;
+}
+
+.img_song img {
+    height: 300px;
+    width: 300px;
+}
+
+.center1 {
+    border: 2px solid transparent;
+    width: 50%;
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.img_song {
+    margin-top: 80px;
+    max-width: fit-content;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_song img {
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    box-shadow: 2px 2px 4px #080501;
+    border-radius: 20px;
+}
+
+.song_name p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+
+    font-size: 30px;
+}
+
+.song_name {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(62, 101, 106);
+}
+
+.Music_system {
+    /* border: 2px solid red; */
+    margin-top: 40px;
+}
+
+.Music_system audio {
+    /* max-width: fit-content; */
+    border: 1px solid #142828;
+    border-radius: 26px;
+    box-shadow: 2px 2px 4px #142828;
+}
+
+.sect01 {
+    border: 2px solid transparent;
+}
+
+.sect02 {
+    border: 2px solid transparent;
+    margin-top: 50px;
+}
+
+.sect03 {
+    border: 2px solid transparent;
+    margin-top: 60px;
+}
+
+.sect04 {
+    margin-top: 60px;
+    border: 2px solid transparent;
+}
+
+/* Drope down */
+.dropbtn {
+    background-color: transparent;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    /* padding: 16px; */
+    /* font-size: 16px; */
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    padding-top: 20px;
+    display: none;
+    position: absolute;
+    background-color: #3bd8e900;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    font-family: "Manrope", sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #8fa39b00;
+    color: #080501;
+    /* text-decoration: underline; */
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ffffff00;
+}
+
+#right_playlist {
+    margin-left: 600px;
+}
+
+p {
+    cursor: default;
+}
+
+/* footer design */
+footer {
+    margin-top: 50px;
+}
+
+.foot {
+    padding-top: 20px;
+    background-color: #142828;
+    color: #ffefdb;
+    padding-bottom: 20px;
+    border-top: 1px solid rgb(33, 110, 101);
+    text-align: center;
+    text-shadow: 2px 2px 4px #2F4F4F;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+    box-shadow: 2px 2px 4px black;
+}
+
+/* -------------------------------------------  Home page Design ---------------------------------------- */
+.Home_page {
+    border: 2px solid transparent;
+    /* margin-top: 300px; */
+}
+
+.Brand_name p {
+    font-size: 100px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 270px;
+    text-shadow: 2px 2px 4px #264141;
+    /* margin-right: 40px; */
+}
+
+.home_page_design {
+    display: flex;
+    border: 2px solid transparent;
+}
+
+.home_page_img1 img {
+    margin-top: 279px;
+}
+
+/* ------------------------------------------- About RhythmiFlow page Design ---------------------------------- */
+.About_RhythmiFlow {
+    margin-top: 200px;
+    border: 2px solid transparent;
+}
+
+.About_RhythmiFlow_Design {
+    border: 2px solid transparent;
+    display: flex;
+    margin-top: 60px;
+}
+
+.about_part1 {
+    border: 2px solid transparent;
+    margin-left: 40px;
+}
+
+.about_part2 {
+    border: 2px solid transparent;
+    margin-left: 150px;
+}
+
+.about_part2 img {
+    height: 300px;
+    width: 300px;
+
+}
+
+#para01 {
+    font-size: 70px;
+    color: #14a0a0;
+    text-shadow: 2px 2px 4px #264141;
+    margin-left: 40px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#para02 {
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.about_part1 button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #000000;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.about_part1 button {
+    box-shadow: 2px 2px 4px #2F4F4F;
+    margin-top: 20px;
+    background-color: #000000;
+    border-radius: 25px;
+    height: 40px;
+    width: 120px;
+    border: 1px solid black;
+    margin-left: 200px;
+
+}
